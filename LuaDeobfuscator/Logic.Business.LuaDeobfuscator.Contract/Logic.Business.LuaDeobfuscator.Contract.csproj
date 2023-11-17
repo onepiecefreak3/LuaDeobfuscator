@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+	<RootNamespace>Logic.Business.LuaDeobfuscator.Contract</RootNamespace>
+	<AssemblyName>Logic.Business.LuaDeobfuscator.Contract</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LuaDeobfuscator\CrossCutting.Core.Contract\CrossCutting.Core.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

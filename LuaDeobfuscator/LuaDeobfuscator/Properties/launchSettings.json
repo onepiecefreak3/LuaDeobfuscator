@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LuaDeobfuscator": {
+      "commandName": "Project",
+      "commandLineArgs": "-f D:\\Users\\Kirito\\Desktop\\min.lua"
+    }
+  }
+}

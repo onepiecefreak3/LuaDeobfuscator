@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+	<RootNamespace>Logic.Business.LuaDeobfuscator</RootNamespace>
+	<AssemblyName>Logic.Business.LuaDeobfuscator</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LuaDeobfuscator\CrossCutting.Core.Contract\CrossCutting.Core.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Business.LuaDeobfuscator.Contract\Logic.Business.LuaDeobfuscator.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Domain.CodeAnalysis\Logic.Domain.CodeAnalysis.Contract\Logic.Domain.CodeAnalysis.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
