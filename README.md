@@ -2,7 +2,11 @@
 
 ## Description
 
-A command line tool to deobfuscate .lua files from various mobile games by Level5.
+A command line tool to deobfuscate decompiled .lua files from various mobile games by Level5.<br>
+The tool expects decompilations from .lua.bin files by unluac.
+
+Using other tools, like [LuaDec by Metaworm](https://luadec.metaworm.site/), may already decompile and deobfuscate most of .lua.bin files.<br>
+I recommend to try out that tool first and see if it yields good results for you.
 
 ## Usage
 
